@@ -1,0 +1,42 @@
+{
+  "kind": "OFFLINE SCHEDULING SIMULATION ONLY",
+  "generated_at": "2026-10-23T08:33:27.670Z",
+  "context_seconds": 4,
+  "pcm_sample_rate": 16000,
+  "variants": [
+    {
+      "hop_seconds": 2,
+      "emitted_windows": 31,
+      "first_window_at_ms": 4000,
+      "input_timestamps": 600,
+      "scheduling_delay_ms": {
+        "mean": 1000,
+        "median": 1000,
+        "p95": 1850,
+        "min": 50,
+        "max": 1950
+      }
+    },
+    {
+      "hop_seconds": 1,
+      "emitted_windows": 61,
+      "first_window_at_ms": 4000,
+      "input_timestamps": 600,
+      "scheduling_delay_ms": {
+        "mean": 500,
+        "median": 500,
+        "p95": 950,
+        "min": 50,
+        "max": 950
+      }
+    }
+  ],
+  "method": "Worklet emission times from 64 seconds of generated zero PCM; both variants use the same 600 simulated utterance-end timestamps, 4.05s through 63.95s at 100ms intervals.",
+  "exclusions": [
+    "No live audio or browser",
+    "No ASR inference or queueing measured",
+    "No recognition accuracy evaluated",
+    "No claim about total live caption latency"
+  ],
+  "mean_scheduling_reduction_ms": 500
+}

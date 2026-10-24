@@ -1,0 +1,6 @@
+{
+  "examples/caption-worklet.js": "1782cc16af5fcc096e32b2b2b165d2ed5c59909507f6565c61355de97b257cab",
+  "examples/football_engine.py": "c8696f0e99f81a09f1599c2b30e0d41063c97a5362de241fff489c307693136c",
+  "examples/verify_caption_worklet.cjs": "7cec7f075e1660278e8178147de1691ab402f36cc42652b1a8f71c6061c32f65",
+  "examples/verify_football_engine.py": "277260493bb4e9110b7b0b1d7ac64296ba241cab657329df199ccc260e656ad8"
+}
