@@ -1,0 +1,31 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Channel library</title><script src="sports-catalog.js" defer></script></head><body><main><h1>Channel library</h1><section id="sports-catalog"><details id="channel-library">
+        <summary>Browse all sports channels <span>IPTV-org catalogue</span></summary>
+        <div id="checked-feeds" class="checked-feeds" aria-label="Recently sample-tested feeds" hidden>
+          <strong>Start with a sample-tested feed</strong>
+          <p>Video samples decoded at 1080p on this connection. Auto quality can adapt to bandwidth; continuous playback is not guaranteed.</p>
+          <div id="checked-feed-buttons"></div>
+          <span id="checked-feeds-time" class="fineprint"></span>
+        </div>
+        <p id="sports-count" role="status">Loading the sports catalogue…</p>
+        <div class="sports-grid">
+          <div class="sports-list">
+            <div class="sports-filters">
+              <label for="sports-search">Search channels<input id="sports-search" type="search" placeholder="Channel name, ID or country" autocomplete="off"></label>
+              <label for="sports-country">Channel country<select id="sports-country"><option value="">All countries</option></select></label>
+            </div>
+            <label for="sports-channels">Channels</label>
+            <select id="sports-channels" size="9" aria-describedby="sports-count" disabled></select>
+          </div>
+          <div class="sports-choice">
+            <span class="eyebrow">WATCH A CHANNEL</span>
+            <label for="sports-stream">Available feeds</label>
+            <select id="sports-stream" disabled></select>
+            <p id="sports-selection">Select a channel to see its feeds.</p>
+            <button id="sports-watch" type="button" disabled>Watch channel</button>
+            <p class="fineprint">Listings are not playback guarantees. A feed may be offline, region restricted or incompatible with browser playback. Try another feed or open the playlist in VLC.</p>
+
+          </div>
+        </div>
+        <p id="sports-loaded" class="fineprint"></p>
+        <p id="sports-error" role="alert" hidden></p>
+        </details></section><video id="video" controls></video></main></body></html>

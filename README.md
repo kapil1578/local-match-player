@@ -14,6 +14,8 @@ A Python/JavaScript sports-player project exploring local captions, camera-visib
 
 ## Review the project
 
+The [Java/Selenium browser regression suite](selenium-java/) covers channel search, filtering, feed selection and recovery after a playlist error. The module includes the test source, a runnable catalog fixture and the original full-player test result.
+
 1. Read [the architecture and tradeoffs](ARCHITECTURE.md).
 2. Run the [source examples](examples/) and their tests.
 3. Inspect [verification and limitations](EVIDENCE.md), including the synthetic scheduling experiment.
